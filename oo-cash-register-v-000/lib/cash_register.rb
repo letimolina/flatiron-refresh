@@ -41,6 +41,6 @@ class CashRegister
     price, quantity = @@last_item[1], price = @@last_item[2]
     @total -= (price * quantity)
     @@last_item.clear
-    @@items.slice(-1,quantity)
+    @@items.slice!(-1,quantity)
   end
 end
