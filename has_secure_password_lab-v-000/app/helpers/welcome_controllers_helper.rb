@@ -1,0 +1,2 @@
+module WelcomeControllersHelper
+end
